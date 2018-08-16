@@ -1,11 +1,11 @@
-package xml_test
+package json_test
 
 import (
 	"encoding/json"
 	"encoding/xml"
 	"io/ioutil"
+	. "json"
 	"testing"
-	. "xml"
 )
 
 func Test_Convert_JSON_Input_JSON_Should_Be_XML(t *testing.T) {
