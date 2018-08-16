@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetHolidaysAvailableResponse xmlns="http://www.holidaywebservice.com/HolidayService_v2/">
+            <GetHolidaysAvailableResult>
+                <HolidayCode>
+                    <Code>NEW-YEARS-DAY-ACTUAL</Code>
+                    <Description>New Year's Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>NEW-YEARS-DAY-OBSERVED</Code>
+                    <Description>New Year's Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>MARTIN-LUTHER-KING-BIRTHDAY-ACTUAL</Code>
+                    <Description>Martin Luther King's Birthday</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>MARTIN-LUTHER-KING-BIRTHDAY-OBSERVED</Code>
+                    <Description>Martin Luther King's Birthday</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>GROUNDHOG-DAY</Code>
+                    <Description>Groundhog Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>LINCOLN-BIRTHDAY</Code>
+                    <Description>Abraham Lincoln's Birthday</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>VALENTINES-DAY</Code>
+                    <Description>Valentine's Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>WASHINGTON-BIRTHDAY</Code>
+                    <Description>George Washington's Birthday</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>PRESIDENTS-DAY</Code>
+                    <Description>President's Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>EASTER</Code>
+                    <Description>Easter</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>GOOD-FRIDAY</Code>
+                    <Description>Good Friday</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>SHROVE-TUESDAY</Code>
+                    <Description>Shrove Tuesday (Fat Tuesday)</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>ASH-WEDNESDAY</Code>
+                    <Description>Ash Wednesday</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>ST-PATRICKS-DAY</Code>
+                    <Description>St. Patrick's Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>APRIL-FOOLS</Code>
+                    <Description>April Fools Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>EARTH-DAY</Code>
+                    <Description>Earth Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>MOTHERS-DAY</Code>
+                    <Description>Mother's Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>MEMORIAL-DAY</Code>
+                    <Description>Memorial Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>CINCO-DE-MAYO</Code>
+                    <Description>Cinco de Mayo</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>FATHERS-DAY</Code>
+                    <Description>Father's Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>FLAG-DAY</Code>
+                    <Description>Flag Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>INDEPENDENCE-DAY-ACTUAL</Code>
+                    <Description>Independence Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>INDEPENDENCE-DAY-OBSERVED</Code>
+                    <Description>Independence Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>LABOR-DAY</Code>
+                    <Description>Labor Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>PATRIOT-DAY</Code>
+                    <Description>Patriot Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>COLUMBUS-DAY</Code>
+                    <Description>Columbus Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>HALLOWEEN</Code>
+                    <Description>Halloween</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>VETERANS-DAY-ACTUAL</Code>
+                    <Description>Veteran's Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>VETERANS-DAY-OBSERVED</Code>
+                    <Description>Veteran's Day</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>THANKSGIVING</Code>
+                    <Description>Thanksgiving</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>BLACK-FRIDAY</Code>
+                    <Description>Black Friday</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>CHRISTMAS-ACTUAL</Code>
+                    <Description>Christmas</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>CHRISTMAS-OBSERVED</Code>
+                    <Description>Christmas</Description>
+                </HolidayCode>
+                <HolidayCode>
+                    <Code>NEW-YEARS-EVE</Code>
+                    <Description>New Year's Eve</Description>
+                </HolidayCode>
+            </GetHolidaysAvailableResult>
+        </GetHolidaysAvailableResponse>
+    </soap:Body>
+</soap:Envelope>
