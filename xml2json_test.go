@@ -1,18 +1,19 @@
 package xml2json_test
 
 import (
+	"encoding/json"
 	"encoding/xml"
 	"io/ioutil"
 	"testing"
 )
 
 type GetCountriesAvailable struct {
-	CountryCode []CountryCode `xml:"Body>GetCountriesAvailableResponse>GetCountriesAvailableResult>CountryCode"`
+	CountryCode []CountryCode `xml:"Body>GetCountriesAvailableResponse>GetCountriesAvailableResult>CountryCode" json:"countrycode"`
 }
 
 type CountryCode struct {
-	Code        string `xml:"Code"`
-	Description string `xml:"Description"`
+	Code        string `xml:"Code" json:"code"`
+	Description string `xml:"Description" json:"description"`
 }
 
 func Test_Convert_XML_to_JSON_Should_Be_JSON(t *testing.T) {
@@ -36,4 +37,22 @@ func Test_Convert_XML_to_JSON_Should_Be_JSON(t *testing.T) {
 		}
 	}
 
+}
+
+func Test_to_JSON_Should_Be_JSON(t *testing.T) {
+	expected := `{"countrycode":[{"code":"Canada","description":"Canada"},{"code":"GreatBritain","description":"Great Britain and Wales"},{"code":"IrelandNorthern","description":"Northern Ireland"},{"code":"IrelandRepublicOf","description":"Republic of Ireland"},{"code":"Scotland","description":"Scotland"},{"code":"UnitedStates","description":"United States"}]}`
+	getCountriesAvailable := GetCountriesAvailable{
+		CountryCode: []CountryCode{
+			CountryCode{"Canada", "Canada"},
+			CountryCode{"GreatBritain", "Great Britain and Wales"},
+			CountryCode{"IrelandNorthern", "Northern Ireland"},
+			CountryCode{"IrelandRepublicOf", "Republic of Ireland"},
+			CountryCode{"Scotland", "Scotland"},
+			CountryCode{"UnitedStates", "United States"},
+		},
+	}
+	actual, _ := json.Marshal(getCountriesAvailable)
+	if expected != string(actual) {
+		t.Errorf("expected \n%s but got it \n%s", expected, actual)
+	}
 }
