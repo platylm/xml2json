@@ -1,0 +1,42 @@
+{
+	"Envelope": {
+		"Body": {
+			"GetCountriesAvailableResponse": {
+				"GetCountriesAvailableResult": {
+					"CountryCode": [
+						{
+							"Code": "Canada",
+							"Description": "Canada"
+						},
+						{
+							"Code": "GreatBritain",
+							"Description": "Great Britain and Wales"
+						},
+						{
+							"Code": "IrelandNorthern",
+							"Description": "Northern Ireland"
+						},
+						{
+							"Code": "IrelandRepublicOf",
+							"Description": "Republic of Ireland"
+						},
+						{
+							"Code": "Scotland",
+							"Description": "Scotland"
+						},
+						{
+							"Code": "UnitedStates",
+							"Description": "United States"
+						}
+					]
+				},
+				"_xmlns": "http://www.holidaywebservice.com/HolidayService_v2/"
+			},
+			"__prefix": "soap"
+		},
+		"_xmlns:soap": "http://schemas.xmlsoap.org/soap/envelope/",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+		"__prefix": "soap"
+	}
+}
